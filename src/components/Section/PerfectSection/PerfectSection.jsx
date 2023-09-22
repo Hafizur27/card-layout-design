@@ -3,7 +3,7 @@
 
 const PerfectSection = () => {
   return (
-    <div className='w-[354px] mx-auto mt-6 flex flex-col gap-6 p-6  bg-neutral-300'>
+    <div className='w-[354px] ml-4 mt-6 flex flex-col gap-6 p-6  bg-neutral-300'>
         <img src={perfectImg} alt="" />
         <p className='text-[#284B80] text-2xl w-[70%]'>How to make a perfect smoothie at home during lockdown</p>
         <div className='flex gap-6'>
