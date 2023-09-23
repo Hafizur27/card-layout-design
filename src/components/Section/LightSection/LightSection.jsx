@@ -5,7 +5,9 @@ const LightSection = () => {
   return (
     <div className="">
       {/* left side */}
-      <div className="max-w-[1086px] mx-auto md:flex gap-8 py-8 border-4 p-4 drop-shadow-lg rounded-lg">
+      <div className="max-w-[1086px] mx-auto md:flex gap-8 py-8 p-4 rounded-lg mt-10" style={{
+        boxShadow: '0px 4px 40px 0px rgba(0, 0, 0, 0.08)'
+      }}>
         <img className="w-[472px] h-[343px]" src={lightImg} alt="" />
         <div className="flex flex-col gap-14">
           <div className="flex flex-col gap-6">
